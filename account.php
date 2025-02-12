@@ -63,19 +63,20 @@
                                             <option value="female">Female</option>
                                         </select>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Status <span class="login-danger">*</span></label>
-                                        <select class="form-control select" name="status" required>
-                                            <option value="">Select Status</option>
-                                            <option value="active">Active</option>
-                                            <option value="inactive">Inactive</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12">
+                                    <div class="row">
+                                    <div class="col-4 ">
                                         <div class="student-submit">
                                             <button type="submit" class="btn btn-primary">Submit</button>
                                         </div>
                                     </div>
+
+                                    <div class="col-4">
+                                        <div class="student-submit">
+                                            <a href="index" class="btn btn-success">Login</a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    
                                 </form>
                             </div>
                         </div>

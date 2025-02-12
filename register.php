@@ -177,13 +177,24 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                                         <label>Slogun</label>
                                         <input type="text" name="slogun" class="form-control" required>
                                     </div>
-                                    <div class="col-12">
+
+                                    <div class="row">
+                                    <div class="col-6">
                                         <div class="student-submit">
                                             <button type="submit" class="btn btn-primary">
                                                 Submit
                                             </button>
                                         </div>
                                     </div>
+                                    <div class="col-6">
+                                        <div class="student-submit">
+                                            <a href="account" class="btn btn-warning">
+                                                Create Account
+                                            </a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    
                                 </form>
                             </div>
                         </div>

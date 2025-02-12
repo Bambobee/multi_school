@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $contact = $_POST['contact'];
     $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
     $gender = $_POST['gender'];
-    $status = $_POST['status'];
+    $status = 'active';
     $school_id = $_POST['school_id'];
     $role = 'school_admin';
 
