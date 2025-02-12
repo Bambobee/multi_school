@@ -139,7 +139,7 @@ $teachers = $stmt->fetch(PDO::FETCH_ASSOC)['total_teachers'];
                                         <h3><?php echo $school_admins; ?></h3>
                                     </div>
                                     <div class="db-icon">
-                                        <img src="../assets/img/icons/dash-icon-02.svg" alt="Dashboard Icon" />
+                                        <img width="40px" src="../assets/img/icons/admin-icon-vector.jpg" alt="Dashboard Icon" />
                                     </div>
                                 </div>
                             </div>
@@ -186,7 +186,7 @@ $teachers = $stmt->fetch(PDO::FETCH_ASSOC)['total_teachers'];
                                         <h3><?php echo $teachers; ?></h3>
                                     </div>
                                     <div class="db-icon">
-                                        <img src="../assets/img/icons/dash-icon-04.svg" alt="Dashboard Icon" />
+                                        <img width="40px" src="../assets/img/icons/Teacher_writing_on_board.svg" alt="Dashboard Icon" />
                                     </div>
                                 </div>
                             </div>
